@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Jagriti</string>
+    <string name="title_activity_share_location">Map</string>
+    <string name="share_using">Share Using</string>
+</resources>

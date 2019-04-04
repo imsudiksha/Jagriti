@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical"
+    tools:context=".ContactUs">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:text="ABOUT"
+            android:textSize="25dp"
+            android:layout_margin="15dp"/>
+
+        <TextView
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact no: 999890 \nEmail id: support@gmail.com"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:id="@+id/message"
+        android:layout_height="30dp"
+        android:layout_margin="15dp"
+        android:background="@color/colorAccent"
+        android:src="@drawable/profile"
+        android:layout_gravity="bottom|end"/>
+</android.support.design.widget.CoordinatorLayout>

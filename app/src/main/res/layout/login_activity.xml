@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/email"
+        android:layout_marginStart="10dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:lineSpacingExtra="18sp"
+        android:text="Hi, Welcome!"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="40dp"
+        app:fontFamily="cursive" />
+
+    <EditText
+        android:id="@+id/loginemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/loginpassword"
+        android:layout_below="@id/loginemail"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_margin="10dp"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/signin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+        android:text="Sign in"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/signup2"
+        android:layout_width="314dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/signin2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="27dp"
+        android:text="  Don't have an account? Register here"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp" />
+</RelativeLayout>

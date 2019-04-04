@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "621979462743",
+    "firebase_url": "https://jagriti-3b37f.firebaseio.com",
+    "project_id": "jagriti-3b37f",
+    "storage_bucket": "jagriti-3b37f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621979462743:android:44a96523b43d0a3e",
+        "android_client_info": {
+          "package_name": "com.example.android.jagriti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9io-mV71n5dhEdirgmFgRUyJce80cOxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621979462743-aqqrq6751i53mt2o04j5a9ls8nvif3ha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
